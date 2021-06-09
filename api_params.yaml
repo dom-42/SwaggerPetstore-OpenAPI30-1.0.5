@@ -16,14 +16,14 @@ environments:
     - name: allinone
       endpoints:
           production:
-              url: 'https://prod.azqore.com'
+              url: 'https://prod1.azqore.com'
               config:
                   retryTimeOut: 1100
                   retryDelay: 1200
                   factor: 3
 
           sandbox:
-              url: 'https://prod.sandbox.azqore.com'
+              url: 'https://prod1.sandbox.azqore.com'
       security:
             enabled: true
             type: basic
